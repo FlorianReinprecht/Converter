@@ -69,7 +69,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/buttonToLiter"
                 android:layout_weight="1"
-                android:onClick="convertToLiter" />
+                android:onClick="convertToLiter"
+                android:textSize="18sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -105,13 +106,14 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/buttonToGallon"
                 android:layout_weight="1"
-                android:onClick="convertToGallon" />
+                android:onClick="convertToGallon"
+                android:textSize="18sp" />
         </LinearLayout>
 
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="98dp"
             android:gravity="center">
 
             <TextView
@@ -121,6 +123,21 @@
                 android:id="@+id/textViewResult"
                 android:layout_weight="1"
                 android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:text="About"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonAbout"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                android:onClick="showAbout" />
         </LinearLayout>
 
     </LinearLayout>
